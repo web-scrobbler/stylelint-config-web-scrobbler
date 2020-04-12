@@ -1,4 +1,4 @@
-# stylelint-config-web-scrobbler
+# stylelint-config-web-scrobbler [![NPM][NpmBadge]][Npm] [![Test][WorkflowBadge]][Workflow]
 
 Stylelint configuration file for Web Scrobbler projects.
 
@@ -23,3 +23,11 @@ Then, add `stylelint-config-web-scrobbler` to the `extends` array in your
 ## License
 
 Licensed under the [MIT License](./LICENSE).
+
+<!-- Badges -->
+[NpmBadge]: https://img.shields.io/npm/v/stylelint-config-web-scrobbler
+[WorkflowBadge]: https://github.com/web-scrobbler/stylelint-config-web-scrobbler/workflows/Lint/badge.svg
+
+<!-- Related pages -->
+[Npm]: https://www.npmjs.com/package/stylelint-config-web-scrobbler
+[Workflow]: https://github.com/web-scrobbler/stylelint-config-web-scrobbler/actions?query=workflow%3ALint
