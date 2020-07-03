@@ -55,8 +55,7 @@ module.exports = {
 		'string-quotes': 'single',
 		'unit-no-unknown': true,
 		'value-keyword-case': 'lower',
-		'value-list-comma-newline-after': 'always-multi-line',
-		'value-list-comma-space-after': 'always',
+		'value-list-comma-space-after': 'always-single-line',
 		'value-list-comma-space-before': 'never',
 		'value-list-max-empty-lines': 0,
 		'order/properties-alphabetical-order': true
