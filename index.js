@@ -1,8 +1,6 @@
-'use strict';
-
 module.exports = {
 	'plugins': [
-		'stylelint-order'
+		'stylelint-order',
 	],
 	'rules': {
 		'block-closing-brace-empty-line-before': 'never',
@@ -58,6 +56,6 @@ module.exports = {
 		'value-list-comma-space-after': 'always-single-line',
 		'value-list-comma-space-before': 'never',
 		'value-list-max-empty-lines': 0,
-		'order/properties-alphabetical-order': true
-	}
+		'order/properties-alphabetical-order': true,
+	},
 };
