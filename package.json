@@ -25,7 +25,8 @@
   },
   "devDependencies": {
     "eslint": "^8.19.0",
-    "eslint-config-web-scrobbler": "^2.1.1"
+    "eslint-config-web-scrobbler": "^2.1.1",
+    "stylelint-config-standard-scss": "^10.0.0"
   },
   "peerDependencies": {
     "stylelint": "^15.10.2"
