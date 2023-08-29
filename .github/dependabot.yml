@@ -13,7 +13,6 @@ updates:
   directory: "/"
   schedule:
     interval: weekly
-  reviewers:
   labels:
   - dependencies
   - maintenance
