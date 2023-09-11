@@ -1,4 +1,7 @@
 module.exports = {
+	extends: [
+		'stylelint-config-standard-scss',
+	],
 	'plugins': [
 		'stylelint-order',
 	],
@@ -42,6 +45,7 @@ module.exports = {
 		'selector-attribute-operator-space-before': 'never',
 		'selector-combinator-space-after': 'always',
 		'selector-combinator-space-before': 'always',
+		'selector-class-pattern': '^[a-z][a-zA-Z0-9]+$',
 		'selector-descendant-combinator-no-non-space': true,
 		'selector-max-empty-lines': 0,
 		'selector-max-id': 0,
