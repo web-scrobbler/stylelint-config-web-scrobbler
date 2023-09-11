@@ -18,7 +18,7 @@ module.exports = {
 		'comment-no-empty': true,
 		'declaration-bang-space-after': 'never',
 		'declaration-bang-space-before': 'always',
-		'declaration-colon-space-after': 'always',
+		'declaration-colon-space-after': 'always-single-line',
 		'declaration-colon-space-before': 'never',
 		'declaration-empty-line-before': 'never',
 		'declaration-block-no-duplicate-properties': true,
