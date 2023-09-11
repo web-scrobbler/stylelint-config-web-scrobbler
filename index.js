@@ -39,6 +39,7 @@ module.exports = {
 		'number-leading-zero': 'always',
 		'number-no-trailing-zeros': true,
 		'property-case': 'lower',
+		'property-no-vendor-prefix': false,
 		'property-no-unknown': true,
 		'selector-attribute-brackets-space-inside': 'never',
 		'selector-attribute-operator-space-after': 'never',
