@@ -1,21 +1,21 @@
-# stylelint-config-web-scrobbler [![NPM][NpmBadge]][Npm] [![Test][WorkflowBadge]][Workflow]
+# @web-scrobbler/stylelint-config [![NPM][NpmBadge]][Npm] [![Test][WorkflowBadge]][Workflow]
 
 Stylelint configuration file for Web Scrobbler projects.
 
 ## Usage
 
-You can install `stylelint-config-web-scrobbler` by a following way:
+You can install `@web-scrobbler/stylelint-config` in the following way:
 ```sh
-> npm install --save-dev stylelint-config-web-scrobbler
+> npm install --save-dev @web-scrobbler/stylelint-config
 ```
 
-Then, add `stylelint-config-web-scrobbler` to the `extends` array in your
+Then, add `@web-scrobbler/stylelint-config` to the `extends` array in your
 `.stylelintrc.*` file.
 ```json
 {
   "extends": [
     "some-other-config-you-use",
-    "stylelint-config-web-scrobbler"
+    "@web-scrobbler/stylelint-config"
   ]
 }
 ```
@@ -25,9 +25,9 @@ Then, add `stylelint-config-web-scrobbler` to the `extends` array in your
 Licensed under the [MIT License](./LICENSE).
 
 <!-- Badges -->
-[NpmBadge]: https://img.shields.io/npm/v/stylelint-config-web-scrobbler
+[NpmBadge]: https://img.shields.io/npm/v/@web-scrobbler/stylelint-config
 [WorkflowBadge]: https://github.com/web-scrobbler/stylelint-config-web-scrobbler/workflows/Lint/badge.svg
 
 <!-- Related pages -->
-[Npm]: https://www.npmjs.com/package/stylelint-config-web-scrobbler
+[Npm]: https://www.npmjs.com/package/@web-scrobbler/stylelint-config
 [Workflow]: https://github.com/web-scrobbler/stylelint-config-web-scrobbler/actions?query=workflow%3ALint
