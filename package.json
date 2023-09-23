@@ -1,6 +1,6 @@
 {
-  "name": "stylelint-config-web-scrobbler",
-  "version": "0.2.0",
+  "name": "@web-scrobbler/stylelint-config",
+  "version": "1.0.0",
   "author": "Alexey <alex.esprit@gmail.com>",
   "description": "Stylelint configuration file for Web Scrobbler projects",
   "license": "MIT",
@@ -21,16 +21,23 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "stylelint-order": "^5.0.0"
+    "stylelint-order": "6.0.3"
   },
   "devDependencies": {
-    "eslint": "^8.19.0",
-    "eslint-config-web-scrobbler": "^2.1.1"
+    "@web-scrobbler/eslint-config": "3.0.0",
+    "eslint": "8.49.0",
+    "stylelint-config-standard-scss": "11.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">=13"
+    "stylelint": ">=15.10.0"
+  },
+  "eslintConfig": {
+    "extends": "@web-scrobbler/eslint-config",
+    "parserOptions": {
+      "ecmaVersion": 2020
+    }
   },
   "scripts": {
-    "lint": "eslint *.js"
+    "lint": "eslint . --ext .js"
   }
 }

@@ -1,4 +1,7 @@
 module.exports = {
+	extends: [
+		'stylelint-config-standard-scss',
+	],
 	'plugins': [
 		'stylelint-order',
 	],
@@ -15,7 +18,7 @@ module.exports = {
 		'comment-no-empty': true,
 		'declaration-bang-space-after': 'never',
 		'declaration-bang-space-before': 'always',
-		'declaration-colon-space-after': 'always',
+		'declaration-colon-space-after': 'always-single-line',
 		'declaration-colon-space-before': 'never',
 		'declaration-empty-line-before': 'never',
 		'declaration-block-no-duplicate-properties': true,
@@ -36,12 +39,14 @@ module.exports = {
 		'number-leading-zero': 'always',
 		'number-no-trailing-zeros': true,
 		'property-case': 'lower',
+		'property-no-vendor-prefix': [true, { ignoreProperties: ['transform', 'perspective', 'backface-visibility', 'appearance'] }],
 		'property-no-unknown': true,
 		'selector-attribute-brackets-space-inside': 'never',
 		'selector-attribute-operator-space-after': 'never',
 		'selector-attribute-operator-space-before': 'never',
 		'selector-combinator-space-after': 'always',
 		'selector-combinator-space-before': 'always',
+		'selector-class-pattern': '^[a-z][a-zA-Z0-9]+$',
 		'selector-descendant-combinator-no-non-space': true,
 		'selector-max-empty-lines': 0,
 		'selector-max-id': 0,
