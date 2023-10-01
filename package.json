@@ -1,6 +1,6 @@
 {
   "name": "@web-scrobbler/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alexey <alex.esprit@gmail.com>",
   "description": "Stylelint configuration file for Web Scrobbler projects",
   "license": "MIT",
