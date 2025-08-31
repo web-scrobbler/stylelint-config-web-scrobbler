@@ -26,5 +26,7 @@ module.exports = {
 		'unit-no-unknown': true,
 		'value-keyword-case': 'lower',
 		'order/properties-alphabetical-order': true,
+		'at-rule-prelude-no-invalid': null,
+		'declaration-property-value-no-unknown': null,
 	},
 };
